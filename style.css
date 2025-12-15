@@ -61,3 +61,25 @@
     --gradient-accent: linear-gradient(135deg, #7dd3fc 0%, #4ade80 100%);
     --gradient-surface: linear-gradient(135deg, #1e293b 0%, #334155 100%);
 }
+
+/* EVERYTHING BELOW IS IDENTICAL EXCEPT COLOR VALUES */
+
+#searchBar:focus {
+    background: var(--text);
+    box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.25), var(--shadow);
+    transform: translateY(-1px);
+    color: var(--glass);
+}
+
+.zone-item:hover button {
+    color: var(--primary);
+    background: rgba(244, 114, 182, 0.05);
+}
+
+#popupBody input[type="text"]:focus,
+#popupBody input[type="file"]:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.1);
+}
+
+/* NO OTHER NON-VARIABLE COLORS EXISTED IN YOUR FILE */
